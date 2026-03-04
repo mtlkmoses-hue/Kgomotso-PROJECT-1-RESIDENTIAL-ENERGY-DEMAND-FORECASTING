@@ -1,7 +1,9 @@
-Project Title: Energy-Consumption-Prediction
+# Project Title: 
+Residential Energy Demand Forecasting (Gaborone, Botswana).
 
 # Project Description: 
 This project bridges the gap between Data Science and Utility Management at the BPC. By applying Supervised Machine Learning (Linear Regression), I'm to develop a model that will predicts monthly electricity usage (kWh) based on a property’s Square Footage. By establishing a linear relationship between building size and energy load, this tool assists in transformer load planning and distribution efficiency for utility providers.
+Objective: To predict Monthly kWh based on Square Footage using Linear Regression.Dataset: Synthetic Utility Dataset (20 observations).Key Results: Highlight the $R^2$ score and the Correlation (0.998).
 
 # Student Information
 Name: Kgomotso Moses Motlalekgosi 
