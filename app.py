@@ -17,7 +17,7 @@ sq_ft = st.number_input("Enter Square Footage:", min_value=100, value=1500)
 if st.button("Generate Full Report"):
     prediction = model.predict(np.array([[sq_ft]]))[0]
     st.success(f"### Predicted Total: {prediction:.2f} kWh")
-    
+
     # Appliance Breakdown
     st.subheader("Appliance Breakdown")
     ratios = {"HVAC": 0.45, "Water Heater": 0.18, "Laundry": 0.08, "Lights": 0.07, "Fridge": 0.05}
