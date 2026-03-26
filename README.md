@@ -26,8 +26,11 @@ Follow these steps to run the electricity consumption prediction model:
 
 1. Make sure Python 3 is installed on your computer.
 2. Make sure the following files are in the same folder:
-   - electricity_model.py
+   - electricity_model.pkl
    - electricity_data.csv
+   - kgomotso_proj_1_residential_energy_demand_forecasting_.py
+   - Kgomotso_PROJ_1_RESIDENTIAL_ENERGY_DEMAND_FORECASTING_.ipynb
+     
 3. Open Command Prompt (Windows) or Terminal (Mac).
 4. Navigate to the folder where the files are saved.
    Example:
@@ -35,9 +38,8 @@ Follow these steps to run the electricity consumption prediction model:
 5. Install required libraries (only the first time):
    pip install pandas scikit-learn matplotlib
 6. Run the script:
-   python electricity_model.py
-7. The program will display the predicted electricity consumption
-   for a 2000 square foot house.
+   python electricity_model.pk1
+7. The program will display the BPC Residential - Load Forecasting.
 
    link to the web: https://r5syhphmhi8gw6hzftdg4j.streamlit.app/
 
